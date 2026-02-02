@@ -77,5 +77,23 @@ TA: அவளகப்பற்றியனாத்தயம்சய்தவ�
 HI: अवलोकन अंततः अनुभवस्यायितर कारण.
 
 
+```
+## Datasets
+
+This project is trained entirely on **publicly available open-source datasets**.
+
+### English → Hindi
+- **IIT Bombay English–Hindi Corpus**
+- Released by IIT Bombay CFILT
+
+
+### English → Tamil
+- **OpenSubtitles (EN–TA)**
+- Public movie subtitle corpus
+
+### Notes
+- All datasets are used for **research and educational purposes**
+- No proprietary or private data is included
+- Data was preprocessed, cleaned, and tokenized using SentencePiece
 
 
