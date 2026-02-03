@@ -51,30 +51,23 @@ beam search decoding, and optional LLaMA-based post-editing.
 
 ### Test Sentences
 ```python
-tests = [
-    "I never thought it would end like this.",
-    "We don’t have much time—let’s go, now.Are you sure this is the right place?",
-    "I did everything I could to save her. No matter what happens, we stay together."
-]
 
 
-Example 1
 
-EN: I never thought it would end like this.
-TA: நன்மை தவறாத வழியம் என்று நன்கு கற்றவர்க்கு உண்டு.
-HI: मैं इसे सुधार नहीं सकता। मेरा काम हिंदी भाषा में है, और यह एक तमिल वाक्य है।
+EN : How are you today?
+TA : நீ இன்று எப்படி இருக்கிறாய்?
+HI : आज आपका दिन कैसा जा रहा है?
 
-Example 2
+EN : The weather is nice today.
+TA : வெயில் சிறப்பானது.
+HI : आज का मौसम अच्छा है।
 
-EN: We don’t have much time let’s go, now. Are you sure this is the right place?
-TA: குறைந்த காலம் உள்ளவரின் பாசாங்கு இந்த சரியான இடமாகும்
-HI: हमें बहुत समय नहीं है, अब आप सुनिश्चित कर लेंगे कि यह सही स्थान है
+EN : I want to play cricket.
+TA : கிரிக்கெட் விளையாடும் பழக்கத்தை எனக்குண்டு.
+HI : मैं क्रिकेट खेलने का इच्छुक हूँ।
 
-Example 3
 
-EN: I did everything I could to save her. No matter what happens, we stay together.
-TA: அவளகப்பற்றியனாத்தயம்சய்தவட்டன்.
-HI: अवलोकन अंततः अनुभवस्यायितर कारण.
+
 
 
 ```
