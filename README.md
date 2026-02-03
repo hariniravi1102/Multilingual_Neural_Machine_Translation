@@ -71,6 +71,28 @@ HI : मैं क्रिकेट खेलने का इच्छुक �
 
 
 ```
+
+## Evaluation 
+
+EN to HI
+BLEU : 15.86
+chrF : 38.91
+COMET: 0.673
+
+EN to TA 
+BLEU : 7.80
+chrF : 36.83
+COMET: 0.718
+
+AVERAGE 
+BLEU : 11.83
+chrF : 37.87
+COMET: 0.696 
+
+
+
+LLM-based post-editing is unable to recover semantic errors in low-resource Tamil translation, as incorrect produced by the NMT model cannot be reliably inferred or corrected. However, for Hindi, where base translations are semantically more accurate, the LLM improves grammatical correctness and surface fluency without altering meaning. This demonstrates that LLM post-editing is effective only when the underlying NMT output preserves correct semantics.
+
 ## Datasets
 
 This project is trained entirely on **publicly available open-source datasets**.
