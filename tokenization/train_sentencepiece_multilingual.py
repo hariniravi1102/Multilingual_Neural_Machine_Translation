@@ -4,14 +4,13 @@ import os
 import sentencepiece as spm
 
 
-# PATH CONFIG
 
 ROOT = "C:/Users/Harini/PycharmProjects/NMT"
 
 TRAIN_FILES = [
-    os.path.join(ROOT, "data", "raw", "en-hi", "train.en"),
+    os.path.join(ROOT, "data", "raw", "en-hi", "train.en.tagged"),
     os.path.join(ROOT, "data", "raw", "en-hi", "train.hi"),
-    os.path.join(ROOT, "data", "raw", "en-ta", "train.en"),
+    os.path.join(ROOT, "data", "raw", "en-ta", "train.en.tagged"),
     os.path.join(ROOT, "data", "raw", "en-ta", "train.ta"),
 ]
 
@@ -49,4 +48,4 @@ spm.SentencePieceTrainer.train(
 print("SentencePiece tokenizer trained successfully.")
 print(f"Model file : {MODEL_PREFIX}.model")
 print(f"Vocab file : {MODEL_PREFIX}.vocab")
-print(f"Language tags registered: {LANGUAGE_TAGS}")
+print(f"Language tags : {LANGUAGE_TAGS}")

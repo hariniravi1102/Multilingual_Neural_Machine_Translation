@@ -1,10 +1,11 @@
 import os
-from datasets import load_dataset
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+from dataset import load_dataset
 
 
 DATA_DIR = "data/raw/en-hi"
-MAX_LEN = 128
-VAL_SPLIT = 0.05
+MAX_LEN = 80
+VAL_SPLIT = 0.02
 SEED = 42
 
 

@@ -1,12 +1,12 @@
 import os
 from sklearn.model_selection import train_test_split
 
-SRC_FILE = "data/raw/en-ta/opensubtitles.en"
-TGT_FILE = "data/raw/en-ta/opensubtitles.ta"
+SRC_FILE = "data/raw/opensubtitles.en"
+TGT_FILE = "data/raw/opensubtitles.ta"
 
 OUT_DIR = "data/raw/en-ta"
-MAX_LEN = 128
-VAL_SPLIT = 0.05
+MAX_LEN = 80
+VAL_SPLIT = 0.02
 SEED = 42
 
 def clean(text):
